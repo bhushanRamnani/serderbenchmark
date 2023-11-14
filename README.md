@@ -13,3 +13,14 @@ Avg Serialization time (30 iterations): 442.219106 milliseconds
 Size of serialized data: 5644051 bytes
 Avg Deserialization time (30 iterations): 61.056574 milliseconds
 ```
+
+```
+go run ser_der.go 30 1000
+
+Number of Iterations: 30. Number of persons: 1000
+Avg Serialization time (30 iterations): 1.455764 milliseconds
+Size of serialized data: 645001 bytes
+Avg Deserialization time (30 iterations): 9.372558 milliseconds
+```
+
+Watch this space for additional benchmarks.
