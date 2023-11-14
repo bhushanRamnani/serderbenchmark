@@ -24,14 +24,11 @@ Avg Deserialization time (30 iterations): 9.372558 milliseconds
 ```
 
 ### Other Benchmarks
-
-|-----------------|-----------------|-----------------|
 | Task            | Go              | Python          |
 |-----------------|-----------------|-----------------|
 | Fibonacci(47)   | 12.5 seconds    | 527 seconds     |
 | Mandelbrot set  | 0.01 seconds    | 0.1 seconds     |
 | Word count      | 0.001 seconds   | 0.002 seconds   |
-|-----------------|-----------------|-----------------|
 
 **Source:** https://github.com/drujensen/fib
 
