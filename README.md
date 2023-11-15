@@ -15,12 +15,28 @@ Avg Deserialization time (30 iterations): 61.056574 milliseconds
 ```
 
 ```
+python3 test_ssl.py -i 20
+
+Avg SSL Handshake Time (20 iterations): 0.013340 milliseconds
+Avg Network I/O Time (20 iterations): 192.919981 milliseconds
+```
+
+
+### Go
+
+```
 go run ser_der.go 30 1000
 
 Number of Iterations: 30. Number of persons: 1000
 Avg Serialization time (30 iterations): 1.455764 milliseconds
 Size of serialized data: 645001 bytes
 Avg Deserialization time (30 iterations): 9.372558 milliseconds
+```
+
+```
+go run test_ssl.go
+Avg TLS Handshake Time (10 iterations): 80.968050 milliseconds
+Avg Network I/O Time (10 iterations): 47.315492 milliseconds
 ```
 
 ### Other Benchmarks

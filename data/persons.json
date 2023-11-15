@@ -1,0 +1,40 @@
+[
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "zipCode": "12345"
+      },
+      "phoneNumber": "+1 555-1234",
+      "favoriteMovies": [
+        {
+          "name": "Inception",
+          "year": 2010,
+          "director": "Christopher Nolan",
+          "producer": "Emma Thomas",
+          "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt"],
+          "genre": "Sci-Fi"
+        },
+        {
+          "name": "The Shawshank Redemption",
+          "year": 1994,
+          "director": "Frank Darabont",
+          "producer": "Niki Marvin",
+          "actors": ["Tim Robbins", "Morgan Freeman"],
+          "genre": "Drama"
+        },
+        {
+          "name": "Pulp Fiction",
+          "year": 1994,
+          "director": "Quentin Tarantino",
+          "producer": "Lawrence Bender",
+          "actors": ["John Travolta", "Samuel L. Jackson"],
+          "genre": "Crime"
+        }
+      ]
+    }
+  ]
+  
